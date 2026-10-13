@@ -1,0 +1,3 @@
+.footer { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; background: var(--forest); color: var(--white); padding: 2.5rem 5%; }
+.footer a { display: block; }
+.copy { grid-column: 1 / -1; color: #9fb5aa; margin: 0; }
