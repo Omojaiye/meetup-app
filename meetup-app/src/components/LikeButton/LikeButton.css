@@ -1,2 +1,0 @@
-.like { position: absolute; top: 8px; right: 8px; border: 0; background: var(--white); border-radius: 50%; width: 38px; height: 38px; cursor: pointer; font-size: 1.1rem; }
-.like.inline { position: static; border: 1px solid var(--line); }

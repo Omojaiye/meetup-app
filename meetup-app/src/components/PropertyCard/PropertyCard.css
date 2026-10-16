@@ -1,5 +1,0 @@
-.card { display: block; background: var(--white); border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
-.card-img { position: relative; }
-.card-img img { height: 200px; width: 100%; object-fit: cover; }
-.card-body { padding: 1rem; }
-.tag { position: absolute; top: 10px; left: 10px; background: var(--gold); color: var(--forest); font-weight: 700; padding: .15rem .6rem; border-radius: 99px; font-size: .8rem; }

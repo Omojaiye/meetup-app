@@ -1,1 +1,0 @@
-export const formatPrice = (n) => "₦" + Number(n || 0).toLocaleString("en-NG");
