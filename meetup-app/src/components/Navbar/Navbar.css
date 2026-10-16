@@ -1,0 +1,6 @@
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding: .9rem 5%; background: var(--forest); color: var(--white); position: sticky; top: 0; z-index: 10; }
+.logo { font-size: 1.4rem; font-weight: 800; }
+.nav nav { display: flex; gap: 1.2rem; }
+.nav nav a.active { color: var(--gold); border-bottom: 2px solid var(--gold); }
+.nav-auth { display: flex; align-items: center; gap: .8rem; }
+@media (max-width: 800px) { .nav nav { order: 3; width: 100%; justify-content: space-between; } }
