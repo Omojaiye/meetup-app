@@ -1,0 +1,9 @@
+.details-top { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; margin: 1.5rem 0; }
+.main-img { width: 100%; height: 380px; object-fit: cover; border-radius: 12px; }
+.thumbs { display: flex; gap: .6rem; margin-top: .6rem; }
+.thumbs img { width: 90px; height: 64px; object-fit: cover; border-radius: 8px; cursor: pointer; opacity: .6; }
+.thumbs img.active { opacity: 1; outline: 3px solid var(--gold); }
+.price.big { font-size: 1.8rem; }
+.actions { display: flex; align-items: center; gap: 1rem; margin: 1rem 0; }
+.map { width: 100%; height: 360px; border: 0; border-radius: 12px; }
+@media (max-width: 800px) { .details-top { grid-template-columns: 1fr; } }

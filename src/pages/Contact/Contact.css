@@ -1,0 +1,2 @@
+.listing-fields { display: grid; gap: 1rem; border: 1px solid var(--line); border-radius: 10px; padding: 1rem; }
+.listing-fields legend { font-weight: 700; padding: 0 .4rem; }

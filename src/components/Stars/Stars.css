@@ -1,0 +1,2 @@
+.stars button { background: none; border: 0; font-size: 1.7rem; color: #cbd5e1; cursor: pointer; padding: 0 2px; }
+.stars button.on { color: var(--gold); }

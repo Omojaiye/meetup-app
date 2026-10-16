@@ -1,0 +1,10 @@
+.admin-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem; }
+.admin-links { display: flex; gap: .7rem; }
+.badge { background: #b42318; color: var(--white); border-radius: 99px; padding: 0 .5rem; font-size: .8rem; margin-left: .3rem; }
+.cat-filter { width: auto; margin-bottom: 1rem; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; min-width: 640px; }
+th, td { text-align: left; padding: .7rem; border-bottom: 1px solid var(--line); vertical-align: middle; }
+td img { width: 80px; height: 56px; object-fit: cover; border-radius: 6px; }
+.row-actions { display: flex; gap: .5rem; }
+.row-actions .btn, .row-actions .btn-outline { padding: .35rem .8rem; font-size: .9rem; }

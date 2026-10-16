@@ -1,0 +1,3 @@
+.filters { display: flex; gap: 1rem; flex-wrap: wrap; margin: 0 0 1.5rem; }
+.filters input { flex: 1; min-width: 200px; }
+.filters select { width: auto; }

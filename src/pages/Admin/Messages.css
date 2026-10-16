@@ -1,0 +1,8 @@
+.messages { display: grid; gap: 1rem; margin-top: 1rem; max-width: 800px; }
+.message { border: 1px solid var(--line); border-radius: 10px; padding: 1rem; }
+.message.unread { border-left: 5px solid var(--gold); background: #fffaf0; }
+.message header { display: flex; justify-content: space-between; }
+.type { font-weight: 700; color: var(--forest); }
+.submitted { background: var(--mint); padding: .5rem .8rem; border-radius: 8px; }
+.msg-actions { display: flex; gap: .6rem; }
+.msg-actions .btn, .msg-actions .btn-outline { padding: .35rem .8rem; font-size: .9rem; }
