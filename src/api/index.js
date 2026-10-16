@@ -40,7 +40,6 @@ async function request(path, { method = "GET", body } = {}) {
 // Turns { category: "Duplex", search: "" } into "category=Duplex" (empty values are dropped)
 const qs = (params) =>
   new URLSearchParams(Object.entries(params).filter(([, v]) => v !== "" && v != null)).toString();
-
 /* ---------- Properties ---------- */
 // GET /api/properties?category=&search=&hot=true&limit=6   -> [Property]
 export const getProperties = (params = {}) =>

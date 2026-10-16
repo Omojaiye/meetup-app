@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
 import AdminRoute from "./components/AdminRoute";
 import Properties from "./pages/Properties/Properties";
 import PropertyDetails from "./pages/PropertyDetails/PropertyDetails";
@@ -12,6 +13,7 @@ import Dashboard from "./pages/Admin/Dashboard";
 import ListingForm from "./pages/Admin/ListingForm";
 import Messages from "./pages/Admin/Messages";
 
+
 // App.jsx only decides which page shows for each URL.
 export default function App() {
   return (
@@ -20,7 +22,7 @@ export default function App() {
       <main>
         <Routes>
           {/* TEMPORARY: we build the Home page in class. Then change this to <Home /> and import it above. */}
-          <Route path="/" element={<Properties />} />
+          <Route path="/" element={<Home />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/property/:id" element={<PropertyDetails />} />
           <Route path="/about" element={<About />} />
